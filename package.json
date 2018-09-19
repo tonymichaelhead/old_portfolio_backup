@@ -1,0 +1,24 @@
+{
+  "name": "tmh-portfolio",
+  "version": "1.0.0",
+  "description": "Tony Michael Head's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonymichaelhead/tmh-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonymichaelhead/tmh-portfolio/issues"
+  },
+  "homepage": "https://github.com/tonymichaelhead/tmh-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

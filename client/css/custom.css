@@ -1,0 +1,46 @@
+/* your styles go here */
+.skills-list {
+    /* position: relative; */
+    list-style-type: none;
+    text-align: left;
+    text-transform: uppercase;
+    right: 26px;
+}
+
+#boom-boom-cats {
+    font-size: 23px;
+}
+
+.famous-quote {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.quote-author {
+    color: #ffcb8f;
+    font-weight: 300;
+}
+
+#famous-quote-icon {
+    display: inline-block;
+    color: #ffcb8f;
+}
+
+.cover-img {
+    width: 300px; 
+    height: 212px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+
+/*UTILITIES*/
+.mt-0 {
+    margin-top: 0;
+}
