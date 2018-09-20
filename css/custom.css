@@ -1,10 +1,15 @@
-/* your styles go here */
+/*LAYOUT*/
+
+ul.li-spaces-md li { padding: 5px 0; }
+
+
 .skills-list {
     /* position: relative; */
     list-style-type: none;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    right: 26px;
+    padding-left: 0;
+    /* right: 26px; */
 }
 
 #boom-boom-cats {
@@ -43,4 +48,8 @@ h1 {
 /*UTILITIES*/
 .mt-0 {
     margin-top: 0;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
 }
