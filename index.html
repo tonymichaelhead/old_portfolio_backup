@@ -133,7 +133,7 @@ _________________________________________________________ -->
 
                         <div class="row">
 
-                            <div class="col-sm-6 text-left" data-animate="fadeInUp">
+                            <div class="col-sm-6 text-left bio" data-animate="fadeInUp">
                                 <div>
                                     <p>
                                         I have 3+ years experience as a software engineer with 1 year of professional 
@@ -148,7 +148,7 @@ _________________________________________________________ -->
                                         looking for exciting new projects to immerse myself in.
                                     </p>
                                 </div>
-                                <div>
+                                <div class="margin-bottom-md">
                                     <h3>Things I'm Proud Of</h3>
                                     <ul class="li-spaces-md">
                                         <li>Co-founded Legatum, a blockchain startup for uploading legal documents to the Ethereum network.</li>
@@ -242,22 +242,24 @@ _________________________________________________________ -->
 
                     <div class="row services">
 
-                        <div class="col-md-4" data-animate="fadeInUp">
+                        <div class="col-md-4 col-sm-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-cogs"></i>
                             </div>
-                            <h3 class="heading mb-5">Languages</h3>
-                            <ul class="skills-list">
-                                <li>JavaScript(ES6)</li>
-                                <li>PHP</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SASS</li>
-                                <li>MySQL</li>
-                                <li>MongoDB</li>
-                            </ul>
+                            <div class="skills-list-wrapper">
+                                <h3 class="heading mb-5">Languages</h3>
+                                <ul class="skills-list">
+                                    <li>JavaScript(ES6)</li>
+                                    <li>PHP</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>SASS</li>
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <div class="col-md-4" data-animate="fadeInUp">
+                        <div class="col-md-4 col-sm-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-puzzle-piece"></i>
                             </div>
                             <h3 class="heading">Frameworks</h3>
@@ -275,7 +277,7 @@ _________________________________________________________ -->
                             </ul>
                         </div>
 
-                        <div class="col-md-4" data-animate="fadeInUp">
+                        <div class="col-md-4 col-sm-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-wrench"></i> 
                             </div>
                             <h3 class="heading">Tools</h3>
@@ -441,9 +443,9 @@ _________________________________________________________ -->
             <div class="container">
                 <div class="row showcase famous-quote" data-animate="fadeInUp">
                     <p><div class="icon" id="famous-quote-icon"><i class="fa fa-quote-left"></i>
-                        </div>&nbsp;People work better when they know what the goal is and why. It is important that people look forward to coming to work in the morning and enjoy working.
+                        </div>&nbsp;The best way to predict the future is to invent it.
                     </p>
-                    <p class="quote-author"><i>Elon Musk</i></p>
+                    <p class="quote-author"><i>Alan Kay</i></p>
                     <!-- <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
                         <div class="item">
                             <div class="icon"><i class="fa fa-align-justify"></i>
@@ -529,8 +531,61 @@ _________________________________________________________ -->
 
                     </div>
                     <!-- Reference detail -->
-
+                    
                     <div id="references-masonry" data-animate="fadeInUp">
+
+                        <div class="reference-item" data-category="marketing">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/" class="cover-img img-responsive" alt="" />
+    
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Forest.AI</h3> 
+                                        <p>A cyberpunk-themed indie RPG where your choices mean everything</p>
+                                    </div>
+                                </a>
+    
+                                <div class="sr-only reference-description" data-images="img/">
+    
+                                    <p>I am the the sole creator, developer and storywriter of this episodic game. Forest.AI 
+                                        is still under development, but give the demo a play and tell me what you think!</p>
+
+                                    <p>Tech stack: Javascript, jQuery, PHP Laravel</p>
+                                    
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
+                                        <!-- <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a> -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="marketing">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/legatum.png" class="cover-img img-responsive" alt="" />
+    
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Legatum</h3> 
+                                        <p>Protect your legacy by uploading your last will and testament to the Ethereum blockchain</p>
+                                    </div>
+                                </a>
+    
+                                <div class="sr-only reference-description" data-images="img/legatum.png,img/legatum_dashboard.png">
+    
+                                    <p>Co-founded and helped develop Legatum &mdash; a dApp for protecting legal contracts such as your
+                                        Last Will and Testament by uploading them to the Ethereum blockchain. I was responsible for implementing front end
+                                        logic and user experience</p>
+
+                                    <p>Tech stack: Angular, Solidity, Truffle.js, Web3, MariaDB</p>
+                                    
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
+                                        <!-- <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a> -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="reference-item" data-category="webdesign">
                             <div class="reference">
@@ -545,9 +600,9 @@ _________________________________________________________ -->
 
                                 <div class="sr-only reference-description" data-images="img/tortamigo.png">
 
-                                    <p>TortAmigo is a sleek, responsive web app that fetches torta vendors by the user’s geolocation using HTML5 and the Yelp API.</p>
+                                    <p>TortAmigo is a solo passion project. It'sa sleek, responsive web app that fetches torta vendors by the user’s geolocation using HTML5 and the Yelp API.</p>
 
-                                    <p>TortAmigo is a solo passion project, in which I take ownership of the front and back end. The front end was built in React, server was built in Node.js/Express and the database was built using MongoDB.</p>
+                                    <p>Tech stack: React, Node.js/Express, MongoDB, Yelp REST API.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -569,11 +624,11 @@ _________________________________________________________ -->
 
                                 <div class="sr-only reference-description" data-images="img/boomboomcats.png">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>This game is an online multiplayer card game which drew great inspiration from the popular card game "Exploding Kittens."
+                                        I contributed to this project by adding a social media system that allows users to customize their own personal profile
+                                        and friend other players.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Tech stack: React, Node/Express, and PostgreSQL</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -596,11 +651,12 @@ _________________________________________________________ -->
 
                                 <div class="sr-only reference-description" data-images="img/landmrk_dashboard.png,img/landmrk_createfact.png,img/landmrk_mapview.png,img/landmrk_moreinfo.png">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Use your phone to explore your surroundings in augmented reality and learn about the world through an interactive, community
+                                        powered wiki. I contributed to this collaborative project by integrating the Google Maps API and allowing users to read or
+                                        create publicly viewable descriptions of their locations based on their geolocation.
+                                    </p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Tech stack: Angular, Ionic, Firebase, and Wikitude Augmented Reality SDK</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -610,34 +666,6 @@ _________________________________________________________ -->
 
                             </div>
                         </div>
-
-                        <div class="reference-item" data-category="marketing">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/legatum.png" class="cover-img img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">Legatum</h3> 
-                                        <p>Protect your legacy by uploading your last will and testament to the Ethereum blockchain</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/legatum.png,img/legatum_dashboard.png">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <!-- <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a> -->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                     <!-- /#references-masonry -->
 
@@ -802,7 +830,7 @@ _________________________________________________________ -->
                     <!-- /.6 -->
 
                     <div class="col-sm-6">
-                        <p>&copy; 2018                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Tony Michael Head. All rights reserved.</p>
+                        <p>&copy; 2018 Tony Michael Head. All rights reserved.</p>
                     </div>
 
                     <div class="col-sm-12">
