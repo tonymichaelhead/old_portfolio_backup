@@ -17,8 +17,29 @@ ul.li-spaces-md li { padding: 5px 0; }
     /* list-style-type: none; */
     text-align: left;
     text-transform: uppercase;
-    /* padding-left: 0; */
+    padding-left: 0rem;
     /* right: 26px; */
+}
+
+@media(max-width: 767px) {
+    .skills-list {
+    width: 11.333%;
+        
+    }
+}
+
+@media(max-width: 494) {
+    .skills-list {
+    width: 33.333%;
+        
+    }
+}
+
+@media(max-width: 480px) {
+    .skills-list {
+        /* padding-left: 0rem; */
+        width: 27.333%
+    }
 }
 
 #boom-boom-cats {
